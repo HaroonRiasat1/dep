@@ -5,7 +5,7 @@ const cors = require("cors"); // Import the 'cors' middleware
 const path = require("path"); // Import the 'path' module
 
 const app = express();
-const port = process.env.PORT || 4000; // Use the PORT environment variable or default to 4000
+const port = process.env.PORT || 4002; // Use the PORT environment variable or default to 4000
 const bodyParser = require("body-parser");
 app.use(bodyParser.json());
 app.use(cors());

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "install-packages": "npm install", 
+    "install-packages": "npm install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
